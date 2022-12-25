@@ -1,0 +1,111 @@
+#toTop{
+    background-color: var(--primary-footer-background);
+    color: var(--color-primary1);
+}
+
+.breadcrumbs ul{
+    text-align: var( --primary-text-align);
+   
+}
+.product-view .product-name h1{
+    text-align: var( --primary-text-align);
+    padding-right: 0px;
+}
+
+.product-view .product-img-box{
+    float: var(--primary-float);
+}
+.product-view .product-shop .add-to-box .add-to-cart label{
+    float: var(--primary-float);
+    margin-left: 10px;
+    font-size: 22px
+
+}
+.product-view .product-shop .add-to-box .btn-cart {
+    background: var(--primary-footer-background);
+    color: var(--color-primary1);
+    margin-right: 12px;
+}
+.custom button.items-count:hover {
+    background-color: var(--primary-footer-background);
+    border: 1px var(--primary-footer-background) solid;
+    color:var(--color-primary1);
+}
+.product-view .product-shop {
+    padding-right: 10px;
+    text-align: var( --primary-text-align);
+
+}
+.form-control, .form-control:focus{
+    text-align: var( --primary-text-align);
+}
+.product-view .product-shop .add-to-box {
+    text-align: var( --primary-text-align);
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border-bottom: 1px solid var(--color-primary1);
+    color: var(--color-primary);
+
+}
+.product-tabs{
+    text-align: center;
+}
+.tab-content > .active{
+    text-align: var( --primary-text-align);
+}
+label.control-label {
+    float: var(--primary-float);
+    margin-left: 10px;
+}
+.related-pro .owl-theme .owl-controls .owl-buttons a:hover {
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid;
+}
+.related-pro .owl-theme .owl-controls .owl-buttons a:hover:after{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid;
+}
+
+.box-hover .add-to-links li a{
+    color: var(--color-primary);
+}
+.box-hover .add-to-links li a:hover{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+}
+.box-hover .add-to-links li a:hover:after {
+    margin-right: 0px;
+    background: #0f3850;
+}
+.products-grid .item .item-inner .item-info .info-inner .item-title a:hover{
+    color:var(--color-primary);
+} 
+
+
+button.btn, button.button, .btn, .button, .button.coupon, .button.btn-continue, .button.login, button.btn-share, .button.create-account{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid;
+}
+.slider-items-products .owl-buttons a:hover{
+    color: var(--color-primary1);
+}
+
+.related-pro .block-title h2{
+    display: table;
+    color:var(--color-primary);
+}
+
+
+.our-features-box .feature-box{
+    background: var(--primary-footer-background);
+}
+.our-features-box .feature-box h3{
+    color: var(--color-primary1);
+}
+.our-features-box .feature-box span{
+    color: var(--color-primary1);
+}
+

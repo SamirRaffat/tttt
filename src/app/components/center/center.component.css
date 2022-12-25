@@ -1,0 +1,71 @@
+    .box-hover .add-to-links li a{
+        color: var(--color-primary);
+    }
+    .box-hover .add-to-links li a:hover{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    .box-hover .add-to-links li a:hover:after {
+        margin-right: 0px;
+        background: #0f3850;
+    }
+    .bestsell-pro .block-title h2{
+        color:var(--color-primary);
+        display: table;
+    }
+    .hot-label{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    button.btn, button.button, .btn, .button, .button.coupon, .button.btn-continue, .button.login, button.btn-share, .button.create-account{
+        color: var(--color-primary1);
+        background:var( --primary-footer-background);
+        border: 1px solid var( --primary-footer-background);
+    }
+    .sale-label{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    .offer-slider .shop-now{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+        border: 1px solid var( --primary-footer-background)
+    }
+    .offer-slider a.shop-now:hover:after {
+        color:var(--color-primary1);
+    }
+    .category-product .navbar-nav > li:first-child {
+        float: right;
+    }
+    .category-product .nav.navbar-nav {
+        width: 100%;
+        text-align: left;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .category-product .navbar-nav > li.active a{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    .category-product .navbar-nav > li > a{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    .category-product .navbar-nav > li > a:hover{
+        transform: perspective(1000px) rotate(-15deg) skew(-15deg, 15deg) translate(10px, -10px);
+        box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+         transition: 0.5s;
+    }
+    .featured-pro .block-title h2{
+        color:var(--color-primary);
+        display: table;
+    }
+    
+.our-features-box .feature-box{
+    background: var(--primary-footer-background);
+}
+.our-features-box .feature-box h3{
+    color: var(--color-primary1);
+}
+.our-features-box .feature-box span{
+    color: var(--color-primary1);
+}

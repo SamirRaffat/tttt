@@ -1,0 +1,455 @@
+<body class="common-home ">
+    <div id="page">
+<footer>
+    <div class="footer-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-4 pull-left">
+            <div class="footer-column-last">
+              <div class="footer-column-logo">
+                 <a href="#"><img src="../../../assets/catalog/view/theme/verito2/image/footer-logo.jpg"alt="logo"> </a> 
+              </div>
+              <div class="newsletter-wrap">
+                <h4>اشترك فى نشرتنا</h4>
+                <input type="text" name="subscriber_email" id="subscriber_email" value=""
+                  placeholder="بريدك الاكتروني" class="form-control input-text required-entry validate-email" />
+                <button class="subscribe" type="button" name="submit_newsletter" id="submit_newsletter"
+                  onclick="return MgkEmailValidation()"><span> اشترك الأن</span></button>
+                <p id="subscriber_content" class="required"></p>
+
+                <script>
+                  function MgkEmailValidation(mail) {
+                    subscribemail = document.getElementById("subscriber_email").value;
+                    var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+                    if (subscribemail != '') {
+
+                      if (subscribemail.search(emailRegEx) != -1) {
+
+
+                        email = document.getElementById("subscriber_email").value;
+                        var xmlhttp;
+                        if (window.XMLHttpRequest) {
+                          xmlhttp = new XMLHttpRequest();
+                        } else {
+                          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                        }
+
+                        xmlhttp.onreadystatechange = function () {
+                          if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                            document.getElementById("subscriber_content").innerHTML = xmlhttp.responseText;
+                          }
+                        }
+                        xmlhttp.open("GET.html", "index87f4.html?route=extension/module/newslettersubscription/addsubscriberemail&amp;email=" + email, true);
+                        xmlhttp.send();
+                        return (true);
+                      }
+                      document.getElementById("subscriber_content").innerHTML = "Please enter an email address.";
+                      return (false);
+                    }
+                    document.getElementById("subscriber_content").innerHTML = "This is a required field.";
+                    return false;
+                  }  
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-xs-12 col-lg-8">
+            <div class="footer-column pull-right">
+              <h4>تحتاج الى مساعدة ؟</h4>
+              <ul class="links">
+                <li class="first">
+                <li><a routerLink="index71ba.html?route=account/return/add"><i class="fa fa-envelope footer-right">
+                </i>abc@example.com</a></li>
+                <li><a routerLink="indexe223.html?route=account/wishlist"><i class="fa fa-phone footer-right"></i> +201006607017 </a></li>
+                <li><a routerLink="indexe223.html?route=account/order"><i class="fa fa-map-marker footer-right"></i>
+                  العنوان القاهرة- كورنيش النيل -حدائق حلوان</a></li>
+              </ul>
+            </div>
+            <div class="footer-column pull-right">
+              <ul class="links">
+                <li class="first"><a routerLink="/Ahouse">عن بيت الناصر</a></li>
+                <li><a routerLink="index4dd2.html?route=account/voucher">الشروط والاحكام</a></li>
+                <li><a routerLink="Privacy">الخصوصية</a></li>
+
+                <li><a routerLink="indexe637.html?route=magikblog/article">وظائف</a></li>
+              </ul>
+            </div>
+            <div class="footer-column pull-right">
+              <ul class="links">
+                <li class="first"><a routerLink="Footer2">الضمان</a></li>
+                <li class=""><a routerLink="/Recovery">سياسة ارجاع السلع</a></li>
+                <li class=""><a routerLink="/questions">الاسئله الشائعه</a></li>
+                <li class=""><a routerLink="/payingoff">طرق الدفع</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-8 col-xs-9 social pull-right">
+            <ul>
+              <li class="fb pull-left"><a href="http://facebook.com/Magikcommerce" target="_blank"></a></li>
+              <li class="tw pull-left"><a href="http://twitter.com/qtwitt" target="_blank"></a></li>
+              <li class="googleplus pull-left"><a href="http://www.magikcommerce.com/" target="_blank"></a></li>
+              <li class="pintrest pull-left"><a href="http://www.pinterest.com/magikcommerce/"
+                  target="_blank"></a></li>
+              <li class="linkedin pull-left"><a href="http://www.linkedin.com/company/magikcommerce"
+                  target="_blank"></a></li>
+              <li class="youtube pull-left"><a href="https://plus.google.com/108548966199168316090/videos"
+                  target="_blank"></a></li>
+            </ul>
+          </div>
+          <div class=" col-lg-4 col-sm-12 col-xs-12 payment-accept pull-left">
+            <div>
+              <img alt="payment1" src="../../../assets/catalog/view/theme/verito2/image/payment-1.png">
+              <img alt="payment2" src="../../../assets/catalog/view/theme/verito2/image/payment-2.png">
+              <img alt="payment3" src="../../../assets/catalog/view/theme/verito2/image/payment-3.png">
+              <img alt="payment4" src="../../../assets/catalog/view/theme/verito2/image/payment-4.png">
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 col-xs-12 coppyrigh"> 2جميع الحقوق محفوظة بيت الناصر © 022</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div> <!-- page id -->
+<div id="mobile-menu">
+  <div class="mobile-menu-inner">
+    <ul>
+      <li>
+        <div class="mm-search">
+          <div id="search1">
+            <div class="input-group">
+              <div class="input-group-btn">
+                <button id="mm-submit-button-search-header" class="btn btn-default">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+              <input id="srch-term" class="form-control simple" type="text" name="search_mm" maxlength="70" value=""
+                placeholder="Search here..">
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <a href="index9328.html?route=common/home">Home</a>
+      </li>
+      <li><a href="index7aac.html?route=product/category&amp;path=2001">Living Room</a>
+        <ul>
+          <li><a href="index6dff.html?route=product/category&amp;path=2001_2007">Racks</a>
+            <ul>
+              <li><a href="indexc6f7.html?route=product/category&amp;path=2001_2007_2043">Display Units</a></li>
+              <li><a href="indexd31f.html?route=product/category&amp;path=2001_2007_2044">Shoe Racks</a></li>
+              <li><a href="index9707.html?route=product/category&amp;path=2001_2007_2045">Magazine Racks</a></li>
+              <li><a href="index771d.html?route=product/category&amp;path=2001_2007_2046">Trunks &amp; Boxes</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexbad4.html?route=product/category&amp;path=2001_2008">Sofas</a>
+            <ul>
+              <li><a href="index7430.html?route=product/category&amp;path=2001_2008_2047">Sofa Beds</a></li>
+              <li><a href="indexb1b6.html?route=product/category&amp;path=2001_2008_2048">Sofa Suites</a></li>
+              <li><a href="indexbfae.html?route=product/category&amp;path=2001_2008_2049">Corner Sofas</a></li>
+              <li><a href="indexc27d.html?route=product/category&amp;path=2001_2008_2050">Leather Sofas</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index2348.html?route=product/category&amp;path=2001_2009">Chairs</a>
+            <ul>
+              <li><a href="indexe1fe.html?route=product/category&amp;path=2001_2009_2051">Recliner</a></li>
+              <li><a href="index69e7.html?route=product/category&amp;path=2001_2009_2052">Arm Chairs</a></li>
+              <li><a href="index1281.html?route=product/category&amp;path=2001_2009_2053">Folding Chairs</a></li>
+              <li><a href="index5ccc.html?route=product/category&amp;path=2001_2009_2054">Metal Chairs</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index0cb5.html?route=product/category&amp;path=2001_2010">Tables</a>
+            <ul>
+              <li><a href="index21d7.html?route=product/category&amp;path=2001_2010_2055">Side Tables</a></li>
+              <li><a href="indexd333.html?route=product/category&amp;path=2001_2010_2056">Console Tables</a></li>
+              <li><a href="index99f0.html?route=product/category&amp;path=2001_2010_2057">Set Of Tables</a></li>
+              <li><a href="index9e6b.html?route=product/category&amp;path=2001_2010_2058">Coffee Tables</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index2dbc.html?route=product/category&amp;path=2001_2011">Bean Bags</a>
+            <ul>
+              <li><a href="index7a5d.html?route=product/category&amp;path=2001_2011_2059">Round</a></li>
+              <li><a href="indexfa31.html?route=product/category&amp;path=2001_2011_2060">Square</a></li>
+              <li><a href="index64e0.html?route=product/category&amp;path=2001_2011_2061">Novelty</a></li>
+              <li><a href="index6569.html?route=product/category&amp;path=2001_2011_2062">Elongated</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index9baf.html?route=product/category&amp;path=2001_2012">Stools</a>
+            <ul>
+              <li><a href="indexf629.html?route=product/category&amp;path=2001_2012_2063">Folding</a></li>
+              <li><a href="indexe224.html?route=product/category&amp;path=2001_2012_2064">Iron</a></li>
+              <li><a href="index52cb.html?route=product/category&amp;path=2001_2012_2065">Designer</a></li>
+              <li><a href="index131e.html?route=product/category&amp;path=2001_2012_2066">Wood</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index2591.html?route=product/category&amp;path=2001_2187">Texttiles</a>
+            <ul>
+              <li><a href="index307a.html?route=product/category&amp;path=2001_2187_2188">Curtain Rods</a></li>
+              <li><a href="indexaf1e.html?route=product/category&amp;path=2001_2187_2189">Cushions</a></li>
+              <li><a href="index555e.html?route=product/category&amp;path=2001_2187_2190">Fabrics</a></li>
+              <li><a href="index71ac.html?route=product/category&amp;path=2001_2187_2191">Benches</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexf503.html?route=product/category&amp;path=2001_2192">Storage</a>
+            <ul>
+              <li><a href="index8ab9.html?route=product/category&amp;path=2001_2192_2193">Buffets</a></li>
+              <li><a href="index95aa.html?route=product/category&amp;path=2001_2192_2194">Cabinets</a></li>
+              <li><a href="index8b18.html?route=product/category&amp;path=2001_2192_2195">Sideboards</a></li>
+              <li><a href="index70ec.html?route=product/category&amp;path=2001_2192_2196">Bookcases</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexd982.html?route=product/category&amp;path=2001_2197">Shelfs</a>
+            <ul>
+              <li><a href="index5436.html?route=product/category&amp;path=2001_2197_2198">Corner Shelf</a></li>
+              <li><a href="index2bfe.html?route=product/category&amp;path=2001_2197_2199">Book Shelf</a></li>
+              <li><a href="index2c0d.html?route=product/category&amp;path=2001_2197_2200">Shelf Units</a></li>
+              <li><a href="index5852.html?route=product/category&amp;path=2001_2197_2201">Wall Shelf</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index566e.html?route=product/category&amp;path=2001_2202">Materials</a>
+            <ul>
+              <li><a href="indexfdbd.html?route=product/category&amp;path=2001_2202_2203">Wooden Furniture</a></li>
+              <li><a href="index3565.html?route=product/category&amp;path=2001_2202_2204">Bamboo Furniture</a></li>
+              <li><a href="indexbcc8.html?route=product/category&amp;path=2001_2202_2205">Glass Furniture</a></li>
+              <li><a href="index05be.html?route=product/category&amp;path=2001_2202_2206">Metal Furniture</a></li>
+            </ul>
+
+          </li>
+        </ul>
+      </li>
+      <li><a href="indexdb51.html?route=product/category&amp;path=2002">Dining &amp; Bar</a>
+        <ul>
+          <li><a href="indexab39.html?route=product/category&amp;path=2002_2013">Dining Table Sets</a>
+            <ul>
+              <li><a href="index56a0.html?route=product/category&amp;path=2002_2013_2067">Two Seater</a></li>
+              <li><a href="indexc300.html?route=product/category&amp;path=2002_2013_2068">Four Seater</a></li>
+              <li><a href="index6642.html?route=product/category&amp;path=2002_2013_2069">Six Seater</a></li>
+              <li><a href="index597c.html?route=product/category&amp;path=2002_2013_2070">Eight Seater</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexe549.html?route=product/category&amp;path=2002_2014">Dining Tables </a>
+            <ul>
+              <li><a href="index423d.html?route=product/category&amp;path=2002_2014_2071">Contemporary</a></li>
+              <li><a href="index0fa8.html?route=product/category&amp;path=2002_2014_2072">Modern</a></li>
+              <li><a href="index2a1b.html?route=product/category&amp;path=2002_2014_2073">Eclectic</a></li>
+              <li><a href="index9534.html?route=product/category&amp;path=2002_2014_2074">Colonial</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index8f2f.html?route=product/category&amp;path=2002_2015">Dining Chairs</a>
+            <ul>
+              <li><a href="index6102.html?route=product/category&amp;path=2002_2015_2075">Contemporary</a></li>
+              <li><a href="indexc9b9.html?route=product/category&amp;path=2002_2015_2076">Modern</a></li>
+              <li><a href="index60de.html?route=product/category&amp;path=2002_2015_2077">Eclectic</a></li>
+              <li><a href="index47c9.html?route=product/category&amp;path=2002_2015_2078">Colonial</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index9941.html?route=product/category&amp;path=2002_2016">Sideboards</a>
+            <ul>
+              <li><a href="index8f4e.html?route=product/category&amp;path=2002_2016_2079">Cabinets</a></li>
+              <li><a href="index7d7d.html?route=product/category&amp;path=2002_2016_2080">Drawers</a></li>
+              <li><a href="indexad14.html?route=product/category&amp;path=2002_2016_2081">Modern</a></li>
+              <li><a href="indexa813.html?route=product/category&amp;path=2002_2016_2082">Glass</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index970a.html?route=product/category&amp;path=2002_2017">Bar Stools</a>
+            <ul>
+              <li><a href="index89cb.html?route=product/category&amp;path=2002_2017_2083">Adjustable</a></li>
+              <li><a href="indexa856.html?route=product/category&amp;path=2002_2017_2084">Swivel</a></li>
+              <li><a href="index8bc9.html?route=product/category&amp;path=2002_2017_2085">Bar Height</a></li>
+              <li><a href="indexedba.html?route=product/category&amp;path=2002_2017_2086">Counter Height</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexf07e.html?route=product/category&amp;path=2002_2018">Serving Carts</a>
+            <ul>
+              <li><a href="index9eca.html?route=product/category&amp;path=2002_2018_2087">Glass</a></li>
+              <li><a href="index8b5c.html?route=product/category&amp;path=2002_2018_2088">Steel</a></li>
+              <li><a href="index971e.html?route=product/category&amp;path=2002_2018_2089">Traditional</a></li>
+              <li><a href="index54ad.html?route=product/category&amp;path=2002_2018_2090">Modern</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index46bb.html?route=product/category&amp;path=2002_2235">Chairs</a>
+            <ul>
+              <li><a href="index998d.html?route=product/category&amp;path=2002_2235_2236">Recliner</a></li>
+              <li><a href="indexc11a.html?route=product/category&amp;path=2002_2235_2237">Arm Chairs</a></li>
+              <li><a href="indexee86.html?route=product/category&amp;path=2002_2235_2238">Folding Chairs</a></li>
+              <li><a href="index15af.html?route=product/category&amp;path=2002_2235_2239">Metal Chairs</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index795c.html?route=product/category&amp;path=2002_2212">Tables</a>
+            <ul>
+              <li><a href="index8ada.html?route=product/category&amp;path=2002_2212_2213">Set Of Tables</a></li>
+              <li><a href="index04f2.html?route=product/category&amp;path=2002_2212_2214">Side Tables</a></li>
+              <li><a href="indexee10.html?route=product/category&amp;path=2002_2212_2215">Console Tables</a></li>
+              <li><a href="index1d8c.html?route=product/category&amp;path=2002_2212_2216">Coffee Tables</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index7b9c.html?route=product/category&amp;path=2002_2217">Stools</a>
+            <ul>
+              <li><a href="indexcff4.html?route=product/category&amp;path=2002_2217_2218">Folding</a></li>
+              <li><a href="indexf38c.html?route=product/category&amp;path=2002_2217_2219">Iron</a></li>
+              <li><a href="indexc7ee.html?route=product/category&amp;path=2002_2217_2220">Designer</a></li>
+              <li><a href="index05c7.html?route=product/category&amp;path=2002_2217_2221">Wood</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index0f4c.html?route=product/category&amp;path=2002_2222">Materials</a>
+            <ul>
+              <li><a href="indexcc7a.html?route=product/category&amp;path=2002_2222_2223">Wooden Furniture</a></li>
+              <li><a href="index86cf.html?route=product/category&amp;path=2002_2222_2224">Bamboo Furniture</a></li>
+              <li><a href="indexceed.html?route=product/category&amp;path=2002_2222_2225">Glass Furniture</a></li>
+              <li><a href="index6052.html?route=product/category&amp;path=2002_2222_2226">Metal Furniture</a></li>
+            </ul>
+
+          </li>
+        </ul>
+      </li>
+      <li><a href="index0861.html?route=product/category&amp;path=2003">Bedroom</a>
+        <ul>
+          <li><a href="index48b4.html?route=product/category&amp;path=2003_2019">Beds</a>
+            <ul>
+              <li><a href="index5d29.html?route=product/category&amp;path=2003_2019_2091">Kids Beds</a></li>
+              <li><a href="indexf186.html?route=product/category&amp;path=2003_2019_2092">Single Beds</a></li>
+              <li><a href="indexf073.html?route=product/category&amp;path=2003_2019_2093">Double Beds</a></li>
+              <li><a href="indexa3b3.html?route=product/category&amp;path=2003_2019_2094">Kingsize Beds</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index16ee.html?route=product/category&amp;path=2003_2020">Dressing Tables</a>
+            <ul>
+              <li><a href="indexa5ed.html?route=product/category&amp;path=2003_2020_2095">Traditional</a></li>
+              <li><a href="index24b1.html?route=product/category&amp;path=2003_2020_2096">Modern</a></li>
+              <li><a href="index4f73.html?route=product/category&amp;path=2003_2020_2097">Glam</a></li>
+              <li><a href="index876a.html?route=product/category&amp;path=2003_2020_2098">Contemporary</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexf62b.html?route=product/category&amp;path=2003_2021">Wardrobes</a>
+            <ul>
+              <li><a href="index118a.html?route=product/category&amp;path=2003_2021_2099">Fitted</a></li>
+              <li><a href="index35ec.html?route=product/category&amp;path=2003_2021_2100">Sliding</a></li>
+              <li><a href="index5060.html?route=product/category&amp;path=2003_2021_2101">Cupboard</a></li>
+              <li><a href="index6a37.html?route=product/category&amp;path=2003_2021_2102">Mirrored</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index6674.html?route=product/category&amp;path=2003_2022">Mattresses</a>
+            <ul>
+              <li><a href="index65c1.html?route=product/category&amp;path=2003_2022_2103">Single</a></li>
+              <li><a href="index8bb3.html?route=product/category&amp;path=2003_2022_2104">Double</a></li>
+              <li><a href="index5f14.html?route=product/category&amp;path=2003_2022_2105">Kingsize</a></li>
+              <li><a href="index090a.html?route=product/category&amp;path=2003_2022_2106">Futon</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index6934.html?route=product/category&amp;path=2003_2023">Bedside Tables</a>
+            <ul>
+              <li><a href="indexc4fd.html?route=product/category&amp;path=2003_2023_2107">Contemporary</a></li>
+              <li><a href="index09d4.html?route=product/category&amp;path=2003_2023_2108">Modern</a></li>
+              <li><a href="index9331.html?route=product/category&amp;path=2003_2023_2109">Eclectic</a></li>
+              <li><a href="indexbd8e.html?route=product/category&amp;path=2003_2023_2110">Colonial</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index0190.html?route=product/category&amp;path=2003_2024">Nightstands</a>
+            <ul>
+              <li><a href="indexb5cc.html?route=product/category&amp;path=2003_2024_2111">Wood</a></li>
+              <li><a href="index0a6d.html?route=product/category&amp;path=2003_2024_2112">Metal</a></li>
+              <li><a href="indexb7af.html?route=product/category&amp;path=2003_2024_2113">Plastic</a></li>
+              <li><a href="index93cc.html?route=product/category&amp;path=2003_2024_2114">Glass</a></li>
+            </ul>
+
+          </li>
+        </ul>
+      </li>
+      <li><a href="indexeaf6.html?route=product/category&amp;path=2004">Kitchen</a>
+        <ul>
+          <li><a href="indexca2e.html?route=product/category&amp;path=2004_2025">Cabinets</a>
+            <ul>
+              <li><a href="index1a97.html?route=product/category&amp;path=2004_2025_2115">Shaker</a></li>
+              <li><a href="index66dc.html?route=product/category&amp;path=2004_2025_2116">Louvered</a></li>
+              <li><a href="index4642.html?route=product/category&amp;path=2004_2025_2117">Flat</a></li>
+              <li><a href="indexe616.html?route=product/category&amp;path=2004_2025_2118">Inset</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index7800.html?route=product/category&amp;path=2004_2026">Wall Units</a>
+            <ul>
+              <li><a href="indexe880.html?route=product/category&amp;path=2004_2026_2119">Single</a></li>
+              <li><a href="indexe7e8.html?route=product/category&amp;path=2004_2026_2120">Double</a></li>
+              <li><a href="indexb146.html?route=product/category&amp;path=2004_2026_2121">Top boxes</a></li>
+              <li><a href="indexba67.html?route=product/category&amp;path=2004_2026_2122">Bi-folding</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexba53.html?route=product/category&amp;path=2004_2027">Trolleys</a>
+            <ul>
+              <li><a href="indexc658.html?route=product/category&amp;path=2004_2027_2123">Stainless Steel</a></li>
+              <li><a href="indexb8e3.html?route=product/category&amp;path=2004_2027_2124">Pine Wood</a></li>
+              <li><a href="indexe86a.html?route=product/category&amp;path=2004_2027_2125">Platform</a></li>
+              <li><a href="index09aa.html?route=product/category&amp;path=2004_2027_2126">Cylinder</a></li>
+            </ul>
+
+          </li>
+          <li><a href="index9141.html?route=product/category&amp;path=2004_2227">Chairs</a>
+            <ul>
+              <li><a href="indexd798.html?route=product/category&amp;path=2004_2227_2231">Contemporary</a></li>
+              <li><a href="index30e7.html?route=product/category&amp;path=2004_2227_2232">Modern</a></li>
+              <li><a href="indexac5b.html?route=product/category&amp;path=2004_2227_2233">Eclectic</a></li>
+              <li><a href="indexfe26.html?route=product/category&amp;path=2004_2227_2234">Colonial</a></li>
+            </ul>
+
+          </li>
+          <li><a href="indexea58.html?route=product/category&amp;path=2004_2030">Stools</a>
+            <ul>
+              <li><a href="index7878.html?route=product/category&amp;path=2004_2030_2135">Contemporary</a></li>
+              <li><a href="index4f01.html?route=product/category&amp;path=2004_2030_2136">Modern</a></li>
+              <li><a href="index8792.html?route=product/category&amp;path=2004_2030_2137">Eclectic</a></li>
+              <li><a href="indexbbf8.html?route=product/category&amp;path=2004_2030_2138">Colonial</a></li>
+            </ul>
+
+          </li>
+        </ul>
+      </li>
+      <li><a href="index8b16.html?route=product/category&amp;path=2005">Home Improvement</a>
+      </li>
+    </ul>
+    <div class="top-links">
+
+      <ul class="links">
+        <li><a href="indexe223.html?route=account/account" title="My Account">My Account</a></li>
+        <li><a href="indexe223.html?route=account/wishlist" id="wishlist-total" title="Wish List">Wish List</a></li>
+        <li><a href="index630e.html?route=checkout/checkout" title="Checkout">Checkout</a></li>
+        <li><a href="indexe637.html?route=magikblog/article"><span>Blog</span></a></li>
+        <li class="last">
+          <a href="indexe223.html?route=account/login">Login</a>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</div><!-- mobile-menu -->
+</body>

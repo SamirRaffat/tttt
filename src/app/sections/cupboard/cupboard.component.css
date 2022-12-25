@@ -1,0 +1,114 @@
+#grid-view.btn.btn-default{
+    background-color: #133751 !important; 
+    border: 1px var(--primary-footer-background) solid;   
+}
+#list-view.btn.btn-default{
+    background-color: #133751 !important; 
+    border: 1px var(--primary-footer-background) solid; 
+}
+
+
+ ul.brdroom {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+ul.brdroom li a{
+    box-sizing: border-box;
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    float: right;
+    margin-right: 5px;
+    font-size: 15px;
+    width: 91px;
+    height: 27px;
+    text-align: center;
+    border: ridge;
+}
+ul.brdroom li:hover{
+    transform: perspective(1000px) rotate(-15deg) skew(-15deg, 15deg) translate(10px, -10px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+     transition: 0.5s;
+}
+.page-heading{
+    float: right;
+}
+.display-product-option{
+    float:left
+}
+.toolbar .sorter{
+    float:left
+
+}
+a#compare-total{
+    margin-left: 5px;
+}
+.pager #limiter label, #sort-by label{
+    float: right;
+    margin-left: 5px;
+
+}
+.button {
+    background: #1c3055;
+    border: 1px solid #1c3055;
+    color: #d0cd00;
+    padding: 8px 12px;
+}
+.sidebar .panel-default>.panel-heading{
+    text-align: right;
+}
+#column-left .special-products .product-thumb .image{
+    float: right;
+}
+#column-left .special-products .product-thumb .caption{
+    text-align: right;
+}
+.our-features-box .feature-box{
+    background: var(--primary-footer-background);
+}
+.our-features-box .feature-box h3{
+    color: var(--color-primary1);
+}
+.our-features-box .feature-box span{
+    color: var(--color-primary1);
+}
+.box-hover .add-to-links li a{
+    color: var(--color-primary);
+}
+.box-hover .add-to-links li a:hover{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+}
+.box-hover .add-to-links li a:hover:after {
+    margin-right: 0px;
+    background: #0f3850;
+}
+.sale-label.sale-top-right{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid;   
+}
+.pagination>li>a:hover{
+    background: var(--primary-footer-background);
+    color:var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid; 
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .display-product-option .sorter .view-mode{
+        display:none
+    }
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .display-product-option .sorter .view-mode{
+        display:none
+    }
+
+
+}

@@ -1,0 +1,37 @@
+.revenuebar {position: relative;padding: 2px 0px 0px 0px;font-family: 'Lato Regular', Arial;text-transform:uppercase;box-shadow:0px 4px 5px #AAAAAA;font-size:14px;}
+.revenuebar .promotion {display:block;width:auto;}
+.downbar{cursor:pointer;top:0px;right:70px;padding:0px 3px 0px 3px;position:absolute;border-radius:0px 0px 5px 5px;box-shadow:0px 4px 5px #AAAAAA;border-top:none;}
+.downbar:hover{cursor:pointer;}
+.down {position:absolute;top:3px;right:85px;}
+.up {top: -45px;display: none;}
+.arrow {cursor:pointer;}
+.revenuecontent{text-align: center;color:#ffffff;}
+.revenuecontent a{color:#FFFFFF;font-size:15px;text-transform:none;} 
+.revenuebutton{border-radius: 3px 3px 3px 3px;font-weight: 500;margin: 0 10px;padding: 5px 10px;background:#00b285;}
+.revenuelink{font-weight:500;margin:0 10px;padding:3px 10px;}
+.ticker{font-size:12px;font-weight:bold;font-family:Helvetica, Arial,sans-serif;text-align:center;height:30px;overflow:hidden;margin:0;padding:0;list-style:none;}
+.ticker li {height: 30px;padding: 5px;margin: 0px 5px;}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+ .toplinks .links { text-align: left !important;}
+.ticker { font-size: 12px;height: 65px;}
+.ticker li {height: 60px;padding: 5px;margin: 0px 30px;padding-bottom: 10px;}
+.down {right: 5px;top: 35px;}
+.downbar {right:0px;z-index:10000;}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.toplinks .links {text-align: left !important;}
+.ticker {font-size: 12px;height: 50px;}
+.ticker li {height: 50px;padding: 5px;margin: 0px 30px;padding-bottom: 10px;}
+.down {right: 5px;top: 20px;}
+.downbar {right:0px;z-index:10000;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.down {right: 15px;top: 5px;}
+.downbar {right:0px;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.downbar {right:0px;}
+}
+
+
+

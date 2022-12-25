@@ -1,0 +1,70 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-primary:#093b4e;
+    --color-primary1:#d9bc00;
+    --color-dark:#27292a;
+    --color-darkest:#1f2122;
+    --color-bg-body:var(--color-darkest);
+    --primary-text-align:right;
+    --primary-float:right;
+    --primary-footer-background:#133751;
+    --primary-footer2-background:#021b24;
+    --primary-footer3-background:#d9bc00;
+    --font-family-primary:'Poppins', sans-serif;
+    --font-weight-bold: 900;
+    --font-weight-normal:400;
+    /* .box-hover .add-to-links li a{
+        color: var(--color-primary);
+    }
+    .box-hover .add-to-links li a:hover{
+        background: var(--primary-footer-background);
+        color:var(--color-primary1);
+    }
+    .box-hover .add-to-links li a:hover:after {
+        margin-right: 0px;
+        background: #0f3850;
+    } */
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body{
+    font-family:var(--font-family-primary);
+
+
+}
+.bestsell-pro .slider-items-products .owl-buttons a:hover {
+    text-decoration: none;
+    background:var( --primary-footer-background);
+    color: var(--color-primary1) !important;
+    border: 1px solid var( --primary-footer-background) !important;
+}
+#toTop{
+    background-color:var( --primary-footer-background);
+    color: var(--color-primary1)
+}
+#toTop:hover {
+    color: #c7a717;
+    background-color: #0e50b3;
+}
+.products-grid .item .item-inner .item-info .info-inner .item-title a:hover {
+    color: #133751;
+}
+.button:hover{
+    background-color:var( --primary-footer-background);
+    color: var(--color-primary1)
+}
+.button:hover::after{
+    background-color:var( --primary-footer-background);
+    color: var(--color-primary1)
+}
+
+
+.featured-pro .slider-items-products .owl-buttons .owl-prev a {
+    border: 1px solid #e5e5e5;
+    color: #999;
+    height: inherit;
+}
+.featured-pro .slider-items-products .owl-buttons a:hover{
+    background-color:var( --primary-footer-background);
+    color: var(--color-primary1);
+    border: 1px solid var( --primary-footer-background) !important;
+}

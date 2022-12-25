@@ -1,0 +1,17 @@
+.button.continue{
+    background: var(--primary-footer-background);
+    color: var(--color-primary1);
+    border: 1px var(--primary-footer-background) solid;
+}
+
+
+
+.our-features-box .feature-box{
+    background: var(--primary-footer-background);
+}
+.our-features-box .feature-box h3{
+    color: var(--color-primary1);
+}
+.our-features-box .feature-box span{
+    color: var(--color-primary1);
+}

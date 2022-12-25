@@ -1,0 +1,27 @@
+.page-title h2{
+    text-align: center;
+    background: var(--color-primary);
+    color: var( --color-primary1);
+    font-size:30px;
+}
+h3.footer-about {
+    text-align: var( --primary-text-align);
+    font-size: 25px;
+}
+p{
+    text-align: var( --primary-text-align);
+}
+.col-right {
+    margin-bottom: 0px;
+    text-align: var( --primary-text-align);
+}
+.block-account .block-content li:before {
+    content: "";
+}
+
+span.footer-about{
+    float: right;
+}
+
+
+ 

@@ -1,0 +1,40 @@
+.page-title h2{
+    text-align: center;
+    background: var(--color-primary);
+    color: var( --color-primary1);
+    font-size:30px;
+}
+h3.footer-about {
+    text-align: var( --primary-text-align);
+    font-size: 25px;
+}
+.static-contain ul {
+    padding: 0px;
+    list-style: none;
+    text-align: var( --primary-text-align);
+    
+}
+img.recovery {
+    float: right;
+    margin: 7px;
+
+}
+p{
+    text-align: var( --primary-text-align);
+    box-sizing: border-box;
+    font-size: initial;
+
+}
+.col-right {
+    margin-bottom: 0px;
+    text-align: var( --primary-text-align);
+}
+.block-account .block-content li:before {
+    content: "";
+}
+
+span.footer-about{
+    float: right;
+    
+}
+
